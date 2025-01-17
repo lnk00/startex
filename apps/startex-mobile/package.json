@@ -11,5 +11,6 @@
   },
   "scripts": {
     "dev": "expo start"
-  }
+  },
+  "main": "expo-router/entry"
 }

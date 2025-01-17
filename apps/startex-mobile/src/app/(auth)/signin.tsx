@@ -1,9 +1,11 @@
 import { StyleSheet, View, Text } from 'react-native';
+import { Link } from 'expo-router';
 
-export const App = () => {
+export const Signin = () => {
   return (
     <View style={styles.container}>
-      <Text>startex</Text>
+      <Text>Signin</Text>
+      <Link href="/signup">Go to signup</Link>
     </View>
   );
 };
@@ -16,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Signin;
