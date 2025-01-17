@@ -8,5 +8,8 @@
     "name": "startex-mobile",
     "projectType": "application",
     "sourceRoot": "apps/startex-mobile/src"
+  },
+  "scripts": {
+    "dev": "expo start"
   }
 }
