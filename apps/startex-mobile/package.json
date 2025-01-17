@@ -1,6 +1,8 @@
 {
   "name": "@startex/startex-mobile",
   "version": "0.0.1",
+  "author": "Damien Dumontet",
+  "description": "starter template for saas development - web application",
   "private": true,
   "nx": {
     "name": "startex-mobile",
