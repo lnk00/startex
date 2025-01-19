@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/startex-mobile"
+    },
+    {
+      "path": "./libs/startex-core"
     }
   ]
 }

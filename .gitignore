@@ -57,3 +57,6 @@ web-build/
 cache/
 
 .env
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
