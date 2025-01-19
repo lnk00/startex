@@ -26,9 +26,5 @@
     "src/test-setup.ts"
   ],
   "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
-  "references": [
-    {
-      "path": "../../libs/startex-core/tsconfig.lib.json"
-    }
-  ]
+  "references": []
 }

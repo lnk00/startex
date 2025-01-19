@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "web:dev": "nx dev startex-web",
-    "mobile:dev": "nx dev startex-mobile"
+    "mobile:dev": "nx dev startex-mobile",
+    "core:dev": "nx dev startex-core"
   },
   "private": true,
   "devDependencies": {
@@ -45,11 +46,7 @@
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^1.3.1"
   },
-  "workspaces": [
-    "apps/**",
-    "libs/**",
-    "packages/**"
-  ],
+  "workspaces": ["apps/**", "libs/**", "packages/**"],
   "dependencies": {
     "@clerk/tanstack-start": "^0.4.0",
     "@expo/metro-config": "~0.19.4",
