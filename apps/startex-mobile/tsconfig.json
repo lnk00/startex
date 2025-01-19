@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/startex-core"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ]

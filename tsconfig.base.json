@@ -29,6 +29,10 @@
     "sourceMap": false,
     "strict": true,
     "target": "es2022",
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "paths": {
+      "@startex/core": ["./libs/startex-core/src/index.ts"]
+    },
+    "baseUrl": "."
   }
 }

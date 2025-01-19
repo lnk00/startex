@@ -10,6 +10,7 @@
     "noUnusedLocals": false,
     "tsBuildInfoFile": "out-tsc/startex-mobile/tsconfig.app.tsbuildinfo"
   },
+  "preserveSymlinks": true,
   "files": ["../../node_modules/@nx/expo/typings/svg.d.ts"],
   "exclude": [
     "out-tsc",
@@ -24,5 +25,10 @@
     "**/*.spec.jsx",
     "src/test-setup.ts"
   ],
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+  "references": [
+    {
+      "path": "../../libs/startex-core/tsconfig.lib.json"
+    }
+  ]
 }
